@@ -1,0 +1,73 @@
+
+.bg{
+	position:relative;	
+}
+.title{
+	position:absolute;
+	top:50px;
+	left:660px;
+	font-size:60px;
+	display:inline;
+	color:#1ab2e8;
+
+
+		
+}
+.biaodan_bg{
+	position:absolute;
+	top:140px;
+	left:600px;
+	background-color: grey;
+	width:400px;
+	height:350px;
+	border-radius: 10px;
+}
+.biaodan{
+	position:absolute;
+	top:250px;
+	left:540px;
+	
+	width:400px;
+	height:350px;
+
+}
+#name_null{
+  width:250px;
+  height:45px; /*要有高度和宽度，否则会被下一个表单覆盖*/
+  color:red;
+  display:block;
+  line-height:10px;
+  padding-top:10px;
+}
+#nameHint{
+    width:250px;
+    height:45px;
+	display: block;
+	margin-top:-57px;
+	line-height:30px;
+}
+.password_null{
+  width:250px;
+  height:35px;
+  display: block;
+  margin-top:0px;
+  margin-left:60px;
+ 
+  color:red;
+ 
+  line-height:35px;
+}
+
+.submit{
+	margin-top:20px;
+	margin-left:60px; /*通过这个属性才能移动注册的位置！即“注册”这个按钮是小盒子，包含于大盒子里*/
+	width:200px;
+	height:30px;
+	background-color:#2fc863;
+	color:white;
+	font-weight:bold;
+	border:none;
+	border-radius: 10px;
+	cursor:pointer;
+
+}
